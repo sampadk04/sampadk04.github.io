@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Sampad Kumar Kar</title>
+    <link>https://sampadk04.github.io/post/</link>
+    <description>Recent content in Projects on Sampad Kumar Kar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 31 Jan 2022 12:00:00 -0500</lastBuildDate><atom:link href="https://sampadk04.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project 1: Exploring Model Selection via Linear Regression</title>
+      <link>https://sampadk04.github.io/post/project-1/</link>
+      <pubDate>Sat, 29 Jan 2022 10:58:08 -0400</pubDate>
+      
+      <guid>https://sampadk04.github.io/post/project-1/</guid>
+      <description>I built different linear regression models using California Housing Data fetched from sklearn.datasets:  Linear regression (with normal equation and iterative optimization (SGD)), Polynomial Regression. Regularizarized regression models - Ridge, Lasso, Elastinet.   I tuned polynomial degree, regularization rate and learning rate with hyper-parameter tuning and cross-validation. I also employed Grid Search and Randomized Search via GridSearchCV and RandomizedSearchCV to tune multiple hyperparameters. Lastly, I compared different models in terms of their parameter vectors and mean absolute error on train, dev (validation) and test sets, and analyzed their evaluation score on the test dataset.</description>
+    </item>
+    
+    <item>
+      <title>Project 2: Project Report on: A Comparison of Regularization Techniques in DNN</title>
+      <link>https://sampadk04.github.io/post/project-2/</link>
+      <pubDate>Tue, 11 Jan 2022 11:00:59 -0400</pubDate>
+      
+      <guid>https://sampadk04.github.io/post/project-2/</guid>
+      <description>Reading Project Report Artificial Neural Networks (ANN) have garnered significant attention from researchers and engineers because of its ability to solve many complex problems with reasonable ability. If enough data are provided during the training process, ANNs are capable of achieving good performance results. However, if training data are not enough, the predefined neural network model suffers from overfitting and underfitting problems. To solve these problems, several regularization techniques have been devised and widely applied to ANNs.</description>
+    </item>
+    
+  </channel>
+</rss>
