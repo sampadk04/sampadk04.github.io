@@ -8,12 +8,40 @@
     <language>en-us</language>
     <lastBuildDate>Mon, 31 Jan 2022 12:00:00 -0500</lastBuildDate><atom:link href="https://sampadk04.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Project: Image Classification with Perceptrons</title>
+      <link>https://sampadk04.github.io/post/project-5/</link>
+      <pubDate>Sun, 06 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://sampadk04.github.io/post/project-5/</guid>
+      <description>(This project primarily uses the sklearn library for implementation)
+ In this project, I use the Perceptron Classifier to clasifiy the images in MNIST_784 dataset. I do this in two steps:  Firstly, I build a binary classifier to classify digits labeled &amp;lsquo;0&amp;rsquo; and &amp;lsquo;not 0&amp;rsquo;. Secondly, I combine this classifer 10 times to classify all 10 digits in a &amp;ldquo;One vs All&amp;rdquo; fashion to build a multi-class classifier.   I also test the models with and without cross-validations.</description>
+    </item>
+    
+    <item>
       <title>Project: Logistic Regression: Implementation and Visualization from scratch</title>
       <link>https://sampadk04.github.io/post/project-2/</link>
       <pubDate>Thu, 03 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://sampadk04.github.io/post/project-2/</guid>
       <description>I implement binary logistic regression from scratch and employ it for solving a couple of classification problems. In one of the setting, we have linearly separable classes and the other one has non-linear decision boundary between classes. The first problem could be addressed with basic logistic regression classifier, while the second requires additional step of polynomial transformation before using Logistic Regression. I also analyze the learning curves of individual models of iterative optimization, i.</description>
+    </item>
+    
+    <item>
+      <title>Project: Perceptrons from scratch</title>
+      <link>https://sampadk04.github.io/post/project-4/</link>
+      <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://sampadk04.github.io/post/project-4/</guid>
+      <description>I implement the perceptron classifier from scratch. I look at 3 different cases and analyze those using our model:  First, for linearly separable data. Second, for linearly inseparable data (with approximate linear boundary fit). Third, for non-linearly separable data.   I also look at the learning curves and analyze the loss. Finally, I visualize the decision boundary obtained by the model in each instance.   Link to GitHub Repository</description>
+    </item>
+    
+    <item>
+      <title>Project: Least Square Classifier from scratch</title>
+      <link>https://sampadk04.github.io/post/project-3/</link>
+      <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://sampadk04.github.io/post/project-3/</guid>
+      <description>I implement Least Square Classifier (LSC) from scratch. I also implement label encoder to transform the output labels into usable form (for both binary and multi-class) classification setup. I have addressed four types of problems:  first with binary linearly separable data without outliers second with binary separable data with outliers third with multiclass separable data (in our case we looked at separating into three classes) fourth with non linearly separable data   The first three problems (binary and multiclass) could be addressed with basic LSC, while the fourth required additional step of polynomial transformation before employing LSC.</description>
     </item>
     
     <item>
