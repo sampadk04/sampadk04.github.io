@@ -6,7 +6,16 @@
     <description>Recent content in Projects on Sampad Kumar Kar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 31 Jan 2022 12:00:00 -0500</lastBuildDate><atom:link href="https://sampadk04.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sampadk04.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>App: My ToDo WebApp</title>
+      <link>https://sampadk04.github.io/post/project-7/</link>
+      <pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://sampadk04.github.io/post/project-7/</guid>
+      <description>Test the webapp @https://webappmytodo.herokuapp.com Snaps  How to Use? Add the title of your task in the title box. Add the description of your task in the description box. Click on the Add Task button to add the task to you ToDo List.  View your task in the ToDo List.  Update/Delete your task by clicking on the relevant buttons in the ToDo List.    Tools Used  Python Flask, Flask SQLAlchemy HTML, CSS(Bootstrap) SQLite Heroku(Deployment)   Link to GitHub Repository</description>
+    </item>
+    
     <item>
       <title>Project: Fast Text based Clustering</title>
       <link>https://sampadk04.github.io/post/project-6/</link>
