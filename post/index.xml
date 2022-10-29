@@ -6,7 +6,26 @@
     <description>Recent content in Projects on Sampad Kumar Kar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sampadk04.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 25 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sampadk04.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fitness Activity Recognition</title>
+      <link>https://sampadk04.github.io/post/project-9/</link>
+      <pubDate>Sun, 25 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://sampadk04.github.io/post/project-9/</guid>
+      <description>(This project is part of my internship at Launchpad.ai for Cohort&#39;23 in collaboration with Nike to develop a generic model to identify and compare the videos of trainee and expert)
+ Used Google’s MediaPipe Pose ML solution with BlazePose to analyze fitness demonstration videos for guided instructions to:  recognize and classify exercises on a per frame basis count the no. of repititions using Google RepNet use DTW (Dynamic Time Warping) to compare the trainer videos (experts) to the trainee videos (learners) and output a score.</description>
+    </item>
+    
+    <item>
+      <title>Super Mario Bros with RL</title>
+      <link>https://sampadk04.github.io/post/project-8/</link>
+      <pubDate>Fri, 05 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://sampadk04.github.io/post/project-8/</guid>
+      <description>We use OpenAI gym environment setup for Super Mario Bros to train a Reinforcement Learning Model using PPO (Proximal Policy Optimization) algorithm. We follow the steps below:  preprocessing the enviroment simplifying the movements for easier learning grayscaling frames to reduce computation vectorizing and stacking environments to keep track of multiple frames     Link to GitHub Repository</description>
+    </item>
+    
     <item>
       <title>App: My ToDo WebApp</title>
       <link>https://sampadk04.github.io/post/project-7/</link>
@@ -51,7 +70,7 @@
       <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://sampadk04.github.io/post/project-4/</guid>
-      <description>I implement the perceptron classifier from scratch. I look at 3 different cases and analyze those using our model:  First, for linearly separable data. Second, for linearly inseparable data (with approximate linear boundary fit). Third, for non-linearly separable data.   I also look at the learning curves and analyze the loss. Finally, I visualize the decision boundary obtained by the model in each instance.   Link to GitHub Repository</description>
+      <description>We implement the perceptron classifier from scratch. We look at 3 different cases and analyze those using our model:  First, for linearly separable data. Second, for linearly inseparable data (with approximate linear boundary fit). Third, for non-linearly separable data.   We also look at the learning curves and analyze the loss. Finally, we visualize the decision boundary obtained by the model in each instance.   Link to GitHub Repository</description>
     </item>
     
     <item>
