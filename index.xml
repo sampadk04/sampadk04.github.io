@@ -6,7 +6,44 @@
     <description>Recent content in Portfolio on Sampad Kumar Kar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 25 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sampadk04.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 12 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://sampadk04.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Facial Emotion Detector</title>
+      <link>https://sampadk04.github.io/post/project-12/</link>
+      <pubDate>Thu, 12 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://sampadk04.github.io/post/project-12/</guid>
+      <description>Facial Emotion detector coded from scratch using PyTorch and OpenCV.
+Emotion Detector:  Data: Facial expression dataset from Kaggle. Classifiers:  Custom ResNet-18 implementation Tranfer Learning: Pre-trained ResNet-18 on subset of ImageNet Dataset   Realtime Rendering (from WebCam):  Preprocessing: OpenCV Frame Facial Detector: Haar Cascade Frontal Face Detector    Results on the Test Data:
+ Sample Realtime Detection off WebCam:
+  Link to GitHub Repository</description>
+    </item>
+    
+    <item>
+      <title>ResNet-18</title>
+      <link>https://sampadk04.github.io/post/project-11/</link>
+      <pubDate>Wed, 28 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://sampadk04.github.io/post/project-11/</guid>
+      <description>We implement ResNet-18 architecture from scratch using PyTorch. Implementation based off the original ResNet paper named &amp;ldquo;Deep Residual Learning for Image Recognition&amp;rdquo;.
+We implement the ResNet-18 architecture from scratch using PyTorch and trainied it on CIFAR-10 dataset.
+ Implementation has been inspired from the original paper named &amp;ldquo;Deep Residual Learning for Image Recognition&amp;rdquo;.
+ Link to ResNet Paper
+Link to GitHub Repository</description>
+    </item>
+    
+    <item>
+      <title>AutoEncoders</title>
+      <link>https://sampadk04.github.io/post/project-10/</link>
+      <pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://sampadk04.github.io/post/project-10/</guid>
+      <description>We implement 3 types of AutoEncoders on the MNIST handwritten digits dataset:
+ Simple AutoEncoder De-Noising AutoEncoder Variational AutoEncoder  Implementation of Variational AutoEncoder has been inspired from the original AutoEncoder paper named &amp;ldquo;Auto-Encoding Variational Bayes&amp;rdquo;.
+Here are some demonstration from the codes:
+  Reconstruction of Simple AutoEncoder:    Reconstruction of De-Noising AutoEncoder:    Interpolation by Variational AutoEncoder:    Link to VAE Paper</description>
+    </item>
+    
     <item>
       <title>Fitness Activity Recognition</title>
       <link>https://sampadk04.github.io/post/project-9/</link>
