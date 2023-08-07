@@ -6,7 +6,26 @@
     <description>Recent content in Projects on Sampad Kumar Kar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 12 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://sampadk04.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://sampadk04.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Attention GAN</title>
+      <link>https://sampadk04.github.io/post/project-13/</link>
+      <pubDate>Thu, 27 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://sampadk04.github.io/post/project-13/</guid>
+      <description>State-of-the-art methods in image-to-image translation are capable of learning a mapping between source and target image. However, they are still produce artifacts and are not able to learn the high-level semantics of the original image, or the most discriminative parts between the source and the target image. To improve on this, the paper introduces an Attention Guided GAN, which can identify the discriminative parts of the image and leave the background unchanged.</description>
+    </item>
+    
+    <item>
+      <title>Neural Networks vs ARIMA</title>
+      <link>https://sampadk04.github.io/post/project-14/</link>
+      <pubDate>Sun, 23 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://sampadk04.github.io/post/project-14/</guid>
+      <description>We conducted a comparative study of forecasting performances for power consumption in Tetuan City using Sequential Networks LSTMs and a basic Transformer, comparing them against the traditional ARIMA model.
+We explored the effectiveness of Sequential Networks, particularly the basic Transformer model, in forecasting power consumption time series data for Tetuan City. We aimed to assess how these modern deep learning approaches outperform the classical ARIMA model, especially in terms of Mean Squared Error (MSE) comparison.</description>
+    </item>
+    
     <item>
       <title>Facial Emotion Detector</title>
       <link>https://sampadk04.github.io/post/project-12/</link>
@@ -14,9 +33,7 @@
       
       <guid>https://sampadk04.github.io/post/project-12/</guid>
       <description>Facial Emotion detector coded from scratch using PyTorch and OpenCV.
-Emotion Detector:  Data: Facial expression dataset from Kaggle. Classifiers:  Custom ResNet-18 implementation Tranfer Learning: Pre-trained ResNet-18 on subset of ImageNet Dataset   Realtime Rendering (from WebCam):  Preprocessing: OpenCV Frame Facial Detector: Haar Cascade Frontal Face Detector    Results on the Test Data:
- Sample Realtime Detection off WebCam:
-  Link to GitHub Repository</description>
+Emotion Detector:  Data: Facial expression dataset from Kaggle. Classifiers:  Custom ResNet-18 implementation Transfer Learning: Pre-trained ResNet-18 on subset of ImageNet Dataset   Realtime Rendering (from WebCam):  Preprocessing: OpenCV Frame Facial Detector: Haar Cascade Frontal Face Detector    Results on the Test Data:  Sample Realtime Detection off WebCam:   Link to GitHub Repository</description>
     </item>
     
     <item>
