@@ -21,6 +21,8 @@
 
     
       
+<link rel="shortcut icon" href="//static/favicon/favicon.ico" type="image/x-icon" />
+
     
 
     
@@ -35,7 +37,7 @@
 <meta itemprop="name" content="Report: A Comparison of Regularization Techniques in DNN">
 <meta itemprop="description" content="A reading project report on Regularization"><meta itemprop="datePublished" content="2022-01-11T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2022-01-11T00:00:00+00:00" />
-<meta itemprop="wordCount" content="466">
+<meta itemprop="wordCount" content="822">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Report: A Comparison of Regularization Techniques in DNN"/>
 <meta name="twitter:description" content="A reading project report on Regularization"/>
@@ -204,11 +206,70 @@
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><h3 id="reading-project-report">Reading Project Report</h3>
-<p>Artificial Neural Networks (ANN) have garnered significant attention from researchers and engineers because of its ability to solve many complex problems with reasonable ability. If enough data are provided during the training process, ANNs are capable of achieving good performance results. However, if training data are not enough, the predefined neural network model suffers from overfitting and underfitting problems. To solve these problems, several regularization techniques have been devised and widely applied to ANNs. However, it is difficult to choose the most suitable scheme for ANNs because of the lack of information regarding the performance of each of these schemes while competing against each other.</p>
-<p>This paper describes a comparative research on several popular regularization techniques by evaluating the training and validation errors in a DNN model, using a real world weather dataset.
-At the end the paper also tests this on their own test set, to validate the conclusions based on training and validation errors, to come up with the best regularization paradigm.</p>
-<p>Credits: Aslah Ahmed Faizi</p>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><h2 id="reading-project-report">Reading Project Report</h2>
+<p>Artificial Neural Networks (ANN) have garnered significant attention from researchers and engineers because of their ability to solve many complex problems with reasonable efficacy. When provided with sufficient data during the training process, ANNs can achieve excellent performance. However, if the training data are insufficient, the predefined neural network model may suffer from overfitting and underfitting problems. To address these issues, several regularization techniques have been devised and widely applied to ANNs. Despite this, choosing the most suitable scheme for ANNs remains challenging due to the lack of comparative information on the performance of these schemes when pitted against each other.</p>
+<p>This paper presents a comparative study of several popular regularization techniques by evaluating the training and validation errors in a Deep Neural Network (DNN) model using a real-world weather dataset. The paper also validates the conclusions based on training and validation errors using an independent test set to determine the best regularization paradigm.</p>
+<h3 id="experiment-overview">Experiment Overview</h3>
+<p>The goal of the experiment is to compare the performance of several powerful regularization methods, including autoencoders, data augmentation, batch normalization, and L1 regularization. The experiment follows these steps:</p>
+<ol>
+<li>The dataset is tested on a DNN without applying any regularization methods to establish a baseline for errors.</li>
+<li>The same DNN model is then trained with each regularization technique applied, and the errors are calculated.</li>
+<li>Each regularization scheme&rsquo;s performance is analyzed by comparing the training and validation errors.</li>
+</ol>
+<p>The experiments were conducted on the following hardware and software setup:</p>
+<ul>
+<li>CPU: Intel Core i7-4790K (no GPU processing)</li>
+<li>RAM: 8 GB</li>
+<li>OS: Windows 10</li>
+<li>Programming Language: Python</li>
+<li>Libraries: TensorFlow, Sci-Kit Learn</li>
+<li>Visualization: Matplotlib</li>
+</ul>
+<h3 id="dataset-and-model-architecture">Dataset and Model Architecture</h3>
+<p>The weather dataset used for training and validating the DNN was collected from a Korean government website. Each sample in the dataset has 35 features, representing seven weather parameters (average temperature, maximum temperature, minimum temperature, average wind speed, average humidity, cloudiness, and daylight hours) over five consecutive days. The target label is the average temperature of the next day.</p>
+<p>The basic DNN model architecture included:</p>
+<ul>
+<li>Input Layer: 35 neurons</li>
+<li>Hidden Layers: 2 layers with 50 neurons each</li>
+<li>Output Layer: 1 neuron</li>
+</ul>
+<h3 id="regularization-techniques-compared">Regularization Techniques Compared</h3>
+<ol>
+<li><strong>Autoencoders:</strong></li>
+</ol>
+<ul>
+<li>Implemented to reduce noise from the input data by compressing and then decompressing the data.</li>
+<li>Resulted in underfitting due to high training and validation errors.</li>
+</ul>
+<ol start="2">
+<li><strong>Batch Normalization:</strong></li>
+</ol>
+<ul>
+<li>Standardized layer inputs to stabilize and speed up the training process.</li>
+<li>Showed better performance but exhibited slight overfitting.</li>
+</ul>
+<ol start="3">
+<li><strong>L1 Regularization:</strong></li>
+</ol>
+<ul>
+<li>Reduced the sensitivity of weights corresponding to irrelevant features.</li>
+<li>Still suffered from overfitting, with low training errors but high validation errors.</li>
+</ul>
+<ol start="4">
+<li><strong>Data Augmentation:</strong></li>
+</ol>
+<ul>
+<li>Expanded the training dataset by applying transformations.</li>
+<li>Two techniques were used: summing features and averaging features over consecutive days.</li>
+<li>The averaging technique achieved the best performance with good generalization and minimal overfitting.</li>
+</ul>
+<h3 id="results-and-conclusion">Results and Conclusion</h3>
+<p>The study found that some models using regularization techniques demonstrated better performance than those without any regularization methods. The data augmentation technique, especially the one based on averaging features, showed the best overall performance. The results indicated that this method provided the best balance between training and validation errors, leading to effective generalization of the model.</p>
+<h3 id="credits">Credits</h3>
+<ul>
+<li>Aslah Ahmed Faizi</li>
+<li>Sampad Kumar Kar</li>
+</ul>
 <figure><img src="https://sampadk04.github.io/images/projects/project-0.jpeg"/>
 </figure>
 
@@ -410,7 +471,7 @@ At the end the paper also tests this on their own test set, to validate the conc
   }
 </script>
 
-<p><a href="https://drive.google.com/file/d/1IdB25eOe6ux7u2mR4tHNifdWi-Pfh87G/view?usp=sharing">Link to Report</a></p>
+<p><a href="https://github.com/sampadk04/CMI_Projects/tree/main/FML_Assignments/A_Comparison_of_Regularization_Techniques_in_DNN">Link to GitHub Repository</a></p>
 <ul class="pa0">
   
 </ul>
@@ -433,7 +494,7 @@ At the end the paper also tests this on their own test set, to validate the conc
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
   <div class="flex justify-between">
   <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://sampadk04.github.io/" >
-    &copy;  Sampad Kumar Kar 2023 
+    &copy;  Sampad Kumar Kar 2024 
   </a>
     <div>
 

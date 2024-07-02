@@ -1,148 +1,112 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Portfolio on Sampad Kumar Kar</title>
+    <title>My Portfolio on Sampad Kumar Kar</title>
     <link>https://sampadk04.github.io/</link>
-    <description>Recent content in Portfolio on Sampad Kumar Kar</description>
+    <description>Recent content in My Portfolio on Sampad Kumar Kar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 27 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://sampadk04.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://sampadk04.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Attention GAN</title>
-      <link>https://sampadk04.github.io/post/project-13/</link>
-      <pubDate>Thu, 27 Apr 2023 00:00:00 +0000</pubDate>
+      <title>SSM: An Efficient Alternative to Attention</title>
+      <link>https://sampadk04.github.io/post/project-10/</link>
+      <pubDate>Sat, 25 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://sampadk04.github.io/post/project-13/</guid>
-      <description>State-of-the-art methods in image-to-image translation are capable of learning a mapping between source and target image. However, they are still produce artifacts and are not able to learn the high-level semantics of the original image, or the most discriminative parts between the source and the target image. To improve on this, the paper introduces an Attention Guided GAN, which can identify the discriminative parts of the image and leave the background unchanged.</description>
+      <guid>https://sampadk04.github.io/post/project-10/</guid>
+      <description>This repository contains the code and data for my Master&amp;rsquo;s Thesis in Computer Science at Chennai Mathematical Institute. The thesis is titled &amp;ldquo;State Space Models: An Efficient Alternative to Attention&amp;rdquo; and is supervised by Professor Pranabendu Misra.
+Abstract  The Transformer architecture, with its self-attention mechanism, has revolutionized deep learning but is computationally expensive for long sequences. This thesis surveys State Space Models (SSMs), including S4, Mamba, Linear Recurrent Units (LRUs), and Griffin, which offer efficiency and effectiveness in handling long-range dependencies.</description>
+    </item>
+    
+    <item>
+      <title>MyLocalGPT</title>
+      <link>https://sampadk04.github.io/post/project-9/</link>
+      <pubDate>Sat, 25 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://sampadk04.github.io/post/project-9/</guid>
+      <description>This is a mini-implementation of my own LocalGPT using Llama2. This is a project aimed at creating a localized version of GPT leveraging the capabilities of Llama2. This implementation allows users to ingest their own documents and query them using a powerful language model on their local device. The project includes scripts for setting up the environment, ingesting documents, and running the model, making it accessible for users to deploy and customize according to their needs.</description>
     </item>
     
     <item>
       <title>Neural Networks vs ARIMA</title>
-      <link>https://sampadk04.github.io/post/project-14/</link>
+      <link>https://sampadk04.github.io/post/project-8/</link>
       <pubDate>Sun, 23 Apr 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://sampadk04.github.io/post/project-14/</guid>
-      <description>We conducted a comparative study of forecasting performances for power consumption in Tetuan City using Sequential Networks LSTMs and a basic Transformer, comparing them against the traditional ARIMA model.
-We explored the effectiveness of Sequential Networks, particularly the basic Transformer model, in forecasting power consumption time series data for Tetuan City. We aimed to assess how these modern deep learning approaches outperform the classical ARIMA model, especially in terms of Mean Squared Error (MSE) comparison.</description>
+      <guid>https://sampadk04.github.io/post/project-8/</guid>
+      <description>We conducted a comprehensive comparative study of forecasting performances for power consumption in Tetuan City using Sequential Networks LSTMs and a basic Transformer, benchmarking them against the traditional ARIMA model.
+Our investigation focused on evaluating the effectiveness of Sequential Networks, particularly the basic Transformer model, in forecasting power consumption time series data for Tetuan City. Our primary aim was to assess whether these modern deep learning approaches can outperform the classical ARIMA model, specifically through a Mean Squared Error (MSE) comparison.</description>
     </item>
     
     <item>
       <title>Facial Emotion Detector</title>
-      <link>https://sampadk04.github.io/post/project-12/</link>
+      <link>https://sampadk04.github.io/post/project-7/</link>
       <pubDate>Thu, 12 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://sampadk04.github.io/post/project-12/</guid>
-      <description>Facial Emotion detector coded from scratch using PyTorch and OpenCV.
-Emotion Detector:  Data: Facial expression dataset from Kaggle. Classifiers:  Custom ResNet-18 implementation Transfer Learning: Pre-trained ResNet-18 on subset of ImageNet Dataset   Realtime Rendering (from WebCam):  Preprocessing: OpenCV Frame Facial Detector: Haar Cascade Frontal Face Detector    Results on the Test Data:  Sample Realtime Detection off WebCam:   Link to GitHub Repository</description>
+      <guid>https://sampadk04.github.io/post/project-7/</guid>
+      <description>A facial emotion detector built from scratch using PyTorch and OpenCV.
+Overview This project focuses on detecting facial emotions using a combination of deep learning and computer vision techniques. The system is capable of real-time emotion detection from webcam input.
+Features Emotion Detector  Data: The model is trained on a facial expression dataset from Kaggle. Classifiers:  Custom ResNet-18 Implementation: A customized version of the ResNet-18 architecture. Transfer Learning: Utilizes a pre-trained ResNet-18 model on a subset of the ImageNet dataset to improve performance.</description>
     </item>
     
     <item>
       <title>ResNet-18</title>
-      <link>https://sampadk04.github.io/post/project-11/</link>
+      <link>https://sampadk04.github.io/post/project-6/</link>
       <pubDate>Wed, 28 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://sampadk04.github.io/post/project-11/</guid>
-      <description>We implement ResNet-18 architecture from scratch using PyTorch. Implementation based off the original ResNet paper named &amp;ldquo;Deep Residual Learning for Image Recognition&amp;rdquo;.
-We implement the ResNet-18 architecture from scratch using PyTorch and trainied it on CIFAR-10 dataset.
- Implementation has been inspired from the original paper named &amp;ldquo;Deep Residual Learning for Image Recognition&amp;rdquo;.
- Link to ResNet Paper
-Link to GitHub Repository</description>
+      <guid>https://sampadk04.github.io/post/project-6/</guid>
+      <description>We present a comprehensive implementation of the ResNet-18 architecture from scratch using PyTorch. This project is inspired by the seminal paper &amp;ldquo;Deep Residual Learning for Image Recognition&amp;rdquo; by Kaiming He et al. Our implementation focuses on replicating the architecture and training it on the CIFAR-10 dataset to achieve robust image classification performance.
+Overview ResNet-18 is a popular convolutional neural network architecture known for its use of residual learning to effectively train deep networks.</description>
     </item>
     
     <item>
       <title>AutoEncoders</title>
-      <link>https://sampadk04.github.io/post/project-10/</link>
+      <link>https://sampadk04.github.io/post/project-4/</link>
       <pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://sampadk04.github.io/post/project-10/</guid>
-      <description>We implement 3 types of AutoEncoders on the MNIST handwritten digits dataset:
- Simple AutoEncoder De-Noising AutoEncoder Variational AutoEncoder  Implementation of Variational AutoEncoder has been inspired from the original AutoEncoder paper named &amp;ldquo;Auto-Encoding Variational Bayes&amp;rdquo;.
-Here are some demonstration from the codes:
-  Reconstruction of Simple AutoEncoder:    Reconstruction of De-Noising AutoEncoder:    Interpolation by Variational AutoEncoder:    Link to VAE Paper</description>
+      <guid>https://sampadk04.github.io/post/project-4/</guid>
+      <description>This project showcases the implementation of three types of AutoEncoders on the MNIST handwritten digits dataset using PyTorch. The AutoEncoders implemented are:
+ Simple AutoEncoder De-Noising AutoEncoder Variational AutoEncoder  The implementation of the Variational AutoEncoder is inspired by the seminal paper &amp;ldquo;Auto-Encoding Variational Bayes&amp;rdquo;.
+Demonstrations Reconstruction of Simple AutoEncoder  Reconstruction of De-Noising AutoEncoder  Interpolation by Variational AutoEncoder  Link to my AutoEncoders GitHub Repository</description>
     </item>
     
     <item>
-      <title>Fitness Activity Recognition</title>
-      <link>https://sampadk04.github.io/post/project-9/</link>
-      <pubDate>Sun, 25 Sep 2022 00:00:00 +0000</pubDate>
+      <title>GANs</title>
+      <link>https://sampadk04.github.io/post/project-5/</link>
+      <pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://sampadk04.github.io/post/project-9/</guid>
-      <description>(This project is part of my internship at Launchpad.ai for Cohort&#39;23 in collaboration with Nike to develop a generic model to identify and compare the videos of trainee and expert)
- Used Google’s MediaPipe Pose ML solution with BlazePose to analyze fitness demonstration videos for guided instructions to:  recognize and classify exercises on a per frame basis count the no. of repititions using Google RepNet use DTW (Dynamic Time Warping) to compare the trainer videos (experts) to the trainee videos (learners) and output a score.</description>
+      <guid>https://sampadk04.github.io/post/project-5/</guid>
+      <description>This project involves the implementation of four different types of Generative Adversarial Networks (GANs) using PyTorch. The GANs implemented are:
+ Vanilla GAN Conditional GAN (CGAN) Deep Convolutional GAN (DCGAN) Attention GAN  Vanilla GAN A Vanilla GAN consists of two neural networks, a Generator and a Discriminator, which compete against each other in a zero-sum game. The Generator creates fake data samples, while the Discriminator attempts to distinguish between real and fake samples.</description>
     </item>
     
     <item>
       <title>Super Mario Bros with RL</title>
-      <link>https://sampadk04.github.io/post/project-8/</link>
+      <link>https://sampadk04.github.io/post/project-3/</link>
       <pubDate>Fri, 05 Aug 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://sampadk04.github.io/post/project-8/</guid>
-      <description>We use OpenAI gym environment setup for Super Mario Bros to train a Reinforcement Learning Model using PPO (Proximal Policy Optimization) algorithm. We follow the steps below:  preprocessing the enviroment simplifying the movements for easier learning grayscaling frames to reduce computation vectorizing and stacking environments to keep track of multiple frames     Link to GitHub Repository</description>
+      <guid>https://sampadk04.github.io/post/project-3/</guid>
+      <description>In this project, we leverage the OpenAI Gym environment to train a Reinforcement Learning (RL) model for playing Super Mario Bros using the Proximal Policy Optimization (PPO) algorithm. This project demonstrates the application of modern RL techniques to a classic video game, showcasing the potential and challenges of training AI agents in dynamic environments.
+Steps Involved   Preprocessing the Environment:
+ Setting up the OpenAI Gym environment for Super Mario Bros.</description>
     </item>
     
     <item>
       <title>App: My ToDo WebApp</title>
-      <link>https://sampadk04.github.io/post/project-7/</link>
+      <link>https://sampadk04.github.io/post/project-2/</link>
       <pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://sampadk04.github.io/post/project-7/</guid>
-      <description>Test the webapp @https://webappmytodo.herokuapp.com Snaps  How to Use? Add the title of your task in the title box. Add the description of your task in the description box. Click on the Add Task button to add the task to you ToDo List.  View your task in the ToDo List.  Update/Delete your task by clicking on the relevant buttons in the ToDo List.    Tools Used  Python Flask, Flask SQLAlchemy HTML, CSS(Bootstrap) SQLite Heroku(Deployment)   Link to GitHub Repository</description>
+      <guid>https://sampadk04.github.io/post/project-2/</guid>
+      <description>Test the Web App https://webappmytodo.herokuapp.com
+Snaps  How to Use  Add a Task:  Enter the title of your task in the title box. Enter the description of your task in the description box. Click on the Add Task button to add the task to your ToDo List.     View Your Tasks:  See your tasks listed in the ToDo List.     Update/Delete a Task:  Click on the relevant buttons in the ToDo List to update or delete a task.</description>
     </item>
     
     <item>
       <title>Project: Fast Text based Clustering</title>
-      <link>https://sampadk04.github.io/post/project-6/</link>
+      <link>https://sampadk04.github.io/post/project-1/</link>
       <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://sampadk04.github.io/post/project-6/</guid>
-      <description>(This project primarily uses the sklearn library for implementation)
- We look at various techniques of clustering while using the Jaccard Similarity as a measure of closeness. We first used the built-in KMeans by processing the documents as binary vectors with dimension equal to the no. of words in the vocabulary. We used this for KOS and NIPS Since, the above techniques turned out to be too slow or unreliable (the MiniBatchKMeans) for Enron, we created 2 algorithms from scratch to tackle while considering the Jaccard Distance.</description>
-    </item>
-    
-    <item>
-      <title>Project: Image Classification with Perceptrons</title>
-      <link>https://sampadk04.github.io/post/project-5/</link>
-      <pubDate>Sun, 06 Feb 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://sampadk04.github.io/post/project-5/</guid>
-      <description>(This project primarily uses the sklearn library for implementation)
- In this project, I use the Perceptron Classifier to clasifiy the images in MNIST_784 dataset. I do this in two steps:  Firstly, I build a binary classifier to classify digits labeled &amp;lsquo;0&amp;rsquo; and &amp;lsquo;not 0&amp;rsquo;. Secondly, I combine this classifer 10 times to classify all 10 digits in a &amp;ldquo;One vs All&amp;rdquo; fashion to build a multi-class classifier.   I also test the models with and without cross-validations.</description>
-    </item>
-    
-    <item>
-      <title>Project: Logistic Regression: Implementation and Visualization from scratch</title>
-      <link>https://sampadk04.github.io/post/project-2/</link>
-      <pubDate>Thu, 03 Feb 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://sampadk04.github.io/post/project-2/</guid>
-      <description>I implement binary logistic regression from scratch and employ it for solving a couple of classification problems. In one of the setting, we have linearly separable classes and the other one has non-linear decision boundary between classes. The first problem could be addressed with basic logistic regression classifier, while the second requires additional step of polynomial transformation before using Logistic Regression. I also analyze the learning curves of individual models of iterative optimization, i.</description>
-    </item>
-    
-    <item>
-      <title>Project: Perceptrons from scratch</title>
-      <link>https://sampadk04.github.io/post/project-4/</link>
-      <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://sampadk04.github.io/post/project-4/</guid>
-      <description>We implement the perceptron classifier from scratch. We look at 3 different cases and analyze those using our model:  First, for linearly separable data. Second, for linearly inseparable data (with approximate linear boundary fit). Third, for non-linearly separable data.   We also look at the learning curves and analyze the loss. Finally, we visualize the decision boundary obtained by the model in each instance.   Link to GitHub Repository</description>
-    </item>
-    
-    <item>
-      <title>Project: Least Square Classifier from scratch</title>
-      <link>https://sampadk04.github.io/post/project-3/</link>
-      <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://sampadk04.github.io/post/project-3/</guid>
-      <description>I implement Least Square Classifier (LSC) from scratch. I also implement label encoder to transform the output labels into usable form (for both binary and multi-class) classification setup. I have addressed four types of problems:  first with binary linearly separable data without outliers second with binary separable data with outliers third with multiclass separable data (in our case we looked at separating into three classes) fourth with non linearly separable data   The first three problems (binary and multiclass) could be addressed with basic LSC, while the fourth required additional step of polynomial transformation before employing LSC.</description>
-    </item>
-    
-    <item>
-      <title>Project: Exploring Model Selection via Linear Regression</title>
-      <link>https://sampadk04.github.io/post/project-1/</link>
-      <pubDate>Sat, 29 Jan 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://sampadk04.github.io/post/project-1/</guid>
-      <description>I built different linear regression models using California Housing Data fetched from sklearn.datasets:  Linear regression (with normal equation and iterative optimization (SGD)), Polynomial Regression. Regularizarized regression models - Ridge, Lasso, Elastinet.   I tuned polynomial degree, regularization rate and learning rate with hyper-parameter tuning and cross-validation. I also employed Grid Search and Randomized Search via GridSearchCV and RandomizedSearchCV to tune multiple hyperparameters. Lastly, I compared different models in terms of their parameter vectors and mean absolute error on train, dev (validation) and test sets, and analyzed their evaluation score on the test dataset.</description>
+      <description>This project primarily uses the sklearn library for implementation.
+ We explore various clustering techniques using Jaccard Similarity as a measure of closeness. Initially, we used the built-in KMeans algorithm by processing the documents as binary vectors with dimensions equal to the number of words in the vocabulary. This was applied to the KOS and NIPS datasets. Due to the inefficiency and unreliability of the above techniques (especially MiniBatchKMeans) for the Enron dataset, we developed two custom algorithms that consider the Jaccard Distance.</description>
     </item>
     
     <item>
@@ -151,7 +115,7 @@ Here are some demonstration from the codes:
       <pubDate>Tue, 11 Jan 2022 00:00:00 +0000</pubDate>
       
       <guid>https://sampadk04.github.io/post/project-0/</guid>
-      <description>Reading Project Report Artificial Neural Networks (ANN) have garnered significant attention from researchers and engineers because of its ability to solve many complex problems with reasonable ability. If enough data are provided during the training process, ANNs are capable of achieving good performance results. However, if training data are not enough, the predefined neural network model suffers from overfitting and underfitting problems. To solve these problems, several regularization techniques have been devised and widely applied to ANNs.</description>
+      <description>Reading Project Report Artificial Neural Networks (ANN) have garnered significant attention from researchers and engineers because of their ability to solve many complex problems with reasonable efficacy. When provided with sufficient data during the training process, ANNs can achieve excellent performance. However, if the training data are insufficient, the predefined neural network model may suffer from overfitting and underfitting problems. To address these issues, several regularization techniques have been devised and widely applied to ANNs.</description>
     </item>
     
   </channel>
