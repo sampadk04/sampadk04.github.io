@@ -66,7 +66,7 @@ async function setupVite(app2, server) {
   const serverOptions = {
     middlewareMode: true,
     hmr: { server },
-    allowedHosts: true
+    allowedHosts: ["localhost", "127.0.0.1", "::1"]
   };
   const vite = await createViteServer({
     ...vite_config_default,
